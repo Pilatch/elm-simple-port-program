@@ -1,4 +1,7 @@
 index.html
+docs.json
+# when making the docs, this next one pops up, and we don't want it
+src/elm-package.json
 # elm-package generated files
 elm-stuff/
 # elm-repl generated files
