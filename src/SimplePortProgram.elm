@@ -4,10 +4,6 @@ import Html.App exposing (program)
 import Html exposing (text)
 
 
-type alias DummyModel =
-    {}
-
-
 simpleProgram :
     (msg -> Cmd msg)
     -> Sub msg
@@ -35,3 +31,7 @@ noViewProgram model update subscriptions =
         , update = update
         , subscriptions = subscriptions
         }
+
+
+type alias DummyModel =
+    {}
