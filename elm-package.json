@@ -7,7 +7,9 @@
         "src",
         "examples"
     ],
-    "exposed-modules": [],
+    "exposed-modules": [
+        "SimplePortProgram"
+    ],
     "dependencies": {
         "elm-lang/core": "4.0.5 <= v < 5.0.0",
         "elm-lang/html": "1.1.0 <= v < 2.0.0"
