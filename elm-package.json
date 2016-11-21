@@ -1,5 +1,5 @@
 {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "summary": "Easily create port programs for JavaScript interoperation, e.g. with Node",
     "repository": "https://github.com/Pilatch/elm-simple-port-program.git",
     "license": "Apache2.0",
