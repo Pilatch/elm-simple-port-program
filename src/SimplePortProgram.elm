@@ -2,6 +2,10 @@ module SimplePortProgram exposing (simpleProgram)
 
 {-| Create simple programs for arbitrary JavaScript interoperation.
 
+Deprecated as of Elm 0.18.0 thanks to Platform.program effectively doing the same thing.
+
+For Elm 0.18.0, instead see our [Port Program Examples](https://github.com/Pilatch/elm-port-program-examples).
+
 Great for beginners who want to quickly try out ports and get their
 Elm code executing in any JavaScript environment.
 
