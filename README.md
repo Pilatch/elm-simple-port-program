@@ -4,9 +4,13 @@
 
 SimplePortProgram exposes only what's necessary to make your Elm functionality interoperate with arbitrary JavaScript.
 
+Deprecated as of Elm 0.18.0 thanks to Platform.program effectively doing the same thing.
+
+For Elm 0.18.0, instead see our [Port Program Examples](https://github.com/Pilatch/elm-port-program-examples).
+
 ## Why?
 
-Elm needed a better way to demonstrate how ports work. Though there is some good documentation for Elm, most has revolved around HTML. Examples that don't actually use HTML, for Node JS, still have a significant amount of cruft to hamper a beginner's understanding of how to get a minimal proof of concept working.
+Elm 0.17.1 needed a better way to demonstrate how ports work. Though there is some good documentation for Elm, most has revolved around HTML. Examples that don't actually use HTML, for Node JS, still have a significant amount of cruft to hamper a beginner's understanding of how to get a minimal proof of concept working.
 
 Models probably aren't needed for simple use either, so SimplePortProgram provides a way to interoperate without that worry. You only need to concern yourself with the structure of data coming and going to/from Elm, and how to act on messages.
 
